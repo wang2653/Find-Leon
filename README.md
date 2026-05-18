@@ -1,0 +1,46 @@
+# Find Leon
+
+A RE-themed merging game built with Python and Tkinter.
+
+The player controls falling fruits, merges fruits of the same level, collects time bonus orbs, avoids time penalty orbs, and tries to survive as long as possible while achieving a high score.
+
+![Uploading cover.png…]()
+
+## Features
+
+- Mouse-controlled fruit dropping
+- Physics-based falling and collision system
+- Fruit merging system
+- Score and high score tracking
+- Local high score storage using `highscore.json`
+- Countdown timer
+- Timer turns red when less than 30 seconds remain
+- Good orbs that add time
+- Bad orbs that subtract time
+- Merge counter for the current game
+- Zombie-style blood mist effect when fruits merge
+- Start screen with optional cover image
+- Optional background and custom fruit images
+- Fallback drawing when images are missing
+
+## Game Rules
+
+1. Move the mouse to control the position of the current fruit.
+2. Left-click to drop the fruit.
+3. When two fruits of the same level collide, they merge into a higher-level fruit.
+4. Each merge gives points based on the new fruit level.
+5. The game ends when:
+   - The timer reaches zero, or
+   - Fruits stay above the danger line for too long.
+6. Green orbs add time.
+7. Red or bad orbs subtract time.
+8. The goal is to get the highest possible score before the game ends.
+
+## Requirements
+
+This project requires Python 3 and the Pillow library.
+
+Install Pillow with:
+
+```bash
+pip install pillow

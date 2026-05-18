@@ -4,7 +4,7 @@ A RE-themed merging game built with Python and Tkinter.
 
 The player controls falling fruits, merges fruits of the same level, collects time bonus orbs, avoids time penalty orbs, and tries to survive as long as possible while achieving a high score.
 
-<img width="1086" height="1448" alt="cover" src="https://github.com/user-attachments/assets/9e822e3d-d6a3-4f98-83e7-f1972bb342a1" />
+<img width="400" height="600" alt="cover" src="https://github.com/user-attachments/assets/9e822e3d-d6a3-4f98-83e7-f1972bb342a1" />
 
 ## Features
 
